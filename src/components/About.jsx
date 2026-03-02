@@ -1,12 +1,12 @@
 import "./About.css";
-
+import aboutImg from "../assets/about.png";
 function About() {
   return (
     <section id="about" className="about">
       <div className="about-container">
 
         <div className="about-image">
-          <img src="./../about.png" alt="About" />
+          <img src={aboutImg} alt="About" />
         </div>
 
         <div className="about-content">

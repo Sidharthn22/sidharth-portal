@@ -1,8 +1,18 @@
 import "./Home.css";
+  import homeBg from "../assets/s.png";
 
 function Home() {
-  return (
-    <section id="home" className="home">
+  return    (
+    <section
+      id="home"
+      className="home"
+      style={{
+        backgroundImage: `url(${homeBg})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat"
+      }}
+    >
       <div className="home-container">
 
         <div className="home-content">
@@ -17,14 +27,12 @@ function Home() {
           </h2>
 
           <div className="home-buttons">
-            <a href="./sid resume.pdf" download>
+            <a href="/sidharth-portal/sid-resume.pdf" download>
               <button className="btn-primary">Download CV</button>
             </a>
             <button className="btn-outline">Contact Me</button>
           </div>
         </div>
-
-        
 
       </div>
     </section>
