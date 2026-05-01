@@ -57,3 +57,41 @@
 .contact-card:hover {
   color: #ff5e2c;
 }
+@media (max-width: 992px) {
+  .contact-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    justify-items: center;
+  }
+
+  .contact-card {
+    width: 100%;
+    max-width: 150px;
+  }
+
+  .icon-circle {
+    width: 65px;
+    height: 65px;
+  }
+
+  .icon-circle img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .contact-card span {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .contact-title {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  .contact-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  text-align: center;
+}
+}

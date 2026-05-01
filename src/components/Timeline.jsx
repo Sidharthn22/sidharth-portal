@@ -60,14 +60,7 @@ function Timeline() {
             </p>
           </div>
 
-          <div className="timeline-item">
-            <h4>Full Stack Project Developer</h4>
-            <span>Academic & Personal Projects | 2023 - Present</span>
-            <p>
-              Developed responsive web applications integrating frontend,
-              backend, and database systems using React, Python, and SQL.
-            </p>
-          </div>
+          
         </div>
 
       </div>

@@ -1,17 +1,12 @@
 import "./Home.css";
-  import homeBg from "../assets/s.png";
+  
 
 function Home() {
   return    (
     <section
       id="home"
       className="home"
-      style={{
-        backgroundImage: `url(${homeBg})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat"
-      }}
+      
     >
       <div className="home-container">
 
